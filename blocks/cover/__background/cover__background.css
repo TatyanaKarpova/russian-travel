@@ -1,0 +1,8 @@
+.cover__background {
+    min-width: 1024px;
+    min-height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}

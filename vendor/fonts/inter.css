@@ -4,7 +4,8 @@
     url(../fonts/Inter-Web/Inter-Regular.woff) format('woff'),
     url(../fonts/Inter-Web/Inter-Regular.woff2) format('woff2');
     font-family: 'Inter';
-    font-weight: normal;
+    font-style: normal;
+    font-weight: 400;
 }
 
 
@@ -14,5 +15,6 @@
     url(../fonts/Inter-Web/Inter-Bold.woff) format('woff'),
     url(../fonts/Inter-Web/Inter-Bold.woff2) format('woff2');
     font-family: 'Inter';
-    font-weight: bold;
+    font-style: bold;
+    font-weight: 900;
 }
