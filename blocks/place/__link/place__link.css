@@ -4,4 +4,10 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.place__link:hover {
+    cursor: url(../../../images/Cursor.png), pointer;
 }

@@ -1,8 +1,11 @@
 .places__list {
+    margin: 0;
+    padding: 0;
+    margin-left: 48px;
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    gap: 72px; 
-    
+    gap: 72px;
+    max-width: 936px;
 }
