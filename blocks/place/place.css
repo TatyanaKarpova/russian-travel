@@ -2,6 +2,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
+    grid-template-areas:
+    "title website"
+    "image paragraph_first_of_type"
+    "image paragraph_second_of_type";
     gap: 48px 32px;
-    max-width: 928px;
+    min-height: 640px;
 }
+
+

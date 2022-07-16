@@ -1,0 +1,15 @@
+.place__paragraph {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.place__paragraph:first-of-type {
+    grid-area: paragraph_first_of_type;
+}
+
+.place__paragraph:nth-of-type(2n) {
+    grid-area: paragraph_second_of_type;
+}
+
