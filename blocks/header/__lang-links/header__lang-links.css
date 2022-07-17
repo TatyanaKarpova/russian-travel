@@ -1,9 +1,14 @@
 .header__lang-links {
-    display: grid;
+    display: flex;
     list-style-type: none;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    gap: 18px;
     padding: 0;
+    justify-content: flex-end;
+    column-gap: 18px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-links {
+        padding-top: 10%; 
+    }
 }
 

@@ -5,11 +5,34 @@
     line-height: 29px;
 }
 
-.place__paragraph:first-of-type {
-    grid-area: paragraph_first_of_type;
-}
-
 .place__paragraph:nth-of-type(2n) {
-    grid-area: paragraph_second_of_type;
+    margin-top: 27px;
 }
 
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .place__paragraph:nth-of-type(2n) {
+        margin-top: 25px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .place__paragraph:nth-of-type(2n) {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place__paragraph:nth-of-type(2n) {
+        margin-top: 26px;
+    }
+}

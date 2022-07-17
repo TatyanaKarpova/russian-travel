@@ -1,9 +1,9 @@
 .header {
     margin: 0 auto;
     padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
     min-height: 52px;
     box-sizing: border-box;
     padding: 28px 48px;
