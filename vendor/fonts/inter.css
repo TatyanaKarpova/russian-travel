@@ -1,8 +1,8 @@
 @font-face {
     src: 
-    url(../fonts/Inter-Desktop/Inter-Regular.otf) format('opentype'),
-    url(../fonts/Inter-Web/Inter-Regular.woff) format('woff'),
-    url(../fonts/Inter-Web/Inter-Regular.woff2) format('woff2');
+    url(./Inter-Desktop/Inter-Regular.otf) format('opentype'),
+    url(./Inter-Web/Inter-Regular.woff) format('woff'),
+    url(./Inter-Web/Inter-Regular.woff2) format('woff2');
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -11,10 +11,20 @@
 
 @font-face {
     src: 
-    url(../fonts/Inter-Desktop/Inter-Bold.otf) format('opentype'),
-    url(../fonts/Inter-Web/Inter-Bold.woff) format('woff'),
-    url(../fonts/Inter-Web/Inter-Bold.woff2) format('woff2');
+    url(./Inter-Desktop/Inter-Bold.otf) format('opentype'),
+    url(./Inter-Web/Inter-Bold.woff) format('woff'),
+    url(./Inter-Web/Inter-Bold.woff2) format('woff2');
     font-family: 'Inter';
-    font-style: bold;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    src: 
+    url(./Inter-Desktop/Inter-Black.otf) format('opentype'),
+    url(./Inter-Web/Inter-Black.woff) format('woff'),
+    url(./Inter-Web/Inter-Black.woff2) format('woff2');
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 900;
 }
