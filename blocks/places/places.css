@@ -1,7 +1,6 @@
 .places {
     color: #FFFFFF;
     margin: 0 auto;
-    min-height: 3292px;
     margin-top: 92px;
     padding: 0;
     padding-left: 48px;
@@ -10,7 +9,6 @@
 
 @media screen and (max-width: 768px) {
     .places {
-        min-height: 2808px;
         margin-top: 88px;
         padding: 0 24px;
     }
@@ -18,7 +16,6 @@
 
 @media screen and (max-width: 320px) {
     .places {
-        min-height: 5177px;
         margin-top: 64px;
         padding: 0;
     }
@@ -26,7 +23,6 @@
 
 @media screen and (min-width: 1280px) {
     .places {
-        min-height: 3392px;
         padding: 0 148px;
     }
 }
