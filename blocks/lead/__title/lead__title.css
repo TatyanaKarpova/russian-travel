@@ -5,12 +5,17 @@
     line-height: 100px;
     text-align: center;
     margin: 0;
-    padding: 0 104px;
 }
 
 @media screen and (max-width: 768px) {
     .lead__title {
-        padding: 0 24px; 
+        font-size: 65px; 
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .lead__title {
+        font-size: 48px; 
     }
 }
 
@@ -18,12 +23,5 @@
     .lead__title {
         font-size: 40px;
         line-height: 44px;
-        padding: 0 14px; 
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .lead__title {
-        padding: 0 132px; 
     }
 }
