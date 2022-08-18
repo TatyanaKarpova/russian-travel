@@ -19,4 +19,4 @@
 
 **GitHub Pages**
 
-Мой проект на [GitHub Pages](https://tatyanakarpova.github.io/russian-travel/index.html).
+Мой проект на [GitHub Pages](https://tatyanakarpova.github.io/russian-travel/).
